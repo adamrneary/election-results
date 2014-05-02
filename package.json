@@ -1,0 +1,22 @@
+{
+  "name": "election-results-scraper",
+  "version": "0.0.1",
+  "description": "A quick pull of election results",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adamrneary/election-results.git"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "cheerio": "~0.12.3",
+    "request": "~2.34.0",
+    "csv": "~0.3.6",
+    "json2csv": "~2.1.0",
+    "underscore": "~1.5.2",
+    "progress": "~1.1.4"
+  }
+}
